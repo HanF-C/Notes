@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T06:35:34.160Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.0.0" etag="plD_9p3BcF0U3hziEHei" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T06:38:30.193Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.0.0" etag="4jZsRvNpOwBcvIlnb1Ie" version="20.8.23" type="github">
   <diagram name="第 1 页" id="791Q4_Yd7dYDzGWZ0i0M">
     <mxGraphModel dx="1387" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,8 +18,25 @@
         <mxCell id="VvPlbChHZbXthlWbuQ1D-3" value="初始化函数：&lt;br&gt;参数：1. 发射序列(观测)、&lt;br&gt;2. 这里假设发射是一个混合分布，每个分布的组成权重也为狄利克雷过程，权重的标签即为emissions、3. sticky：表示是否为sticky HDP_HMM、4.先验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="100" width="260" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="VvPlbChHZbXthlWbuQ1D-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvPlbChHZbXthlWbuQ1D-4" target="VvPlbChHZbXthlWbuQ1D-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvPlbChHZbXthlWbuQ1D-18" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VvPlbChHZbXthlWbuQ1D-16">
+          <mxGeometry x="-0.1632" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VvPlbChHZbXthlWbuQ1D-4" value="mcmc方法：&lt;br&gt;输入：1.迭代次数、2.从多少次迭代后开始记录、3.每隔多少次进行记录、4.多线程核数、5.是否打印结果&lt;br&gt;返回：1.HDPHMM状态的数量、2.整个模型的负对数似然、3.chain的负对数似然、4.超参数、5.发射beta值、6.转移beta值、7.所有的概率字典对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="350" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VvPlbChHZbXthlWbuQ1D-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VvPlbChHZbXthlWbuQ1D-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvPlbChHZbXthlWbuQ1D-14" target="VvPlbChHZbXthlWbuQ1D-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvPlbChHZbXthlWbuQ1D-14" value="update_states方法：&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="585" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
