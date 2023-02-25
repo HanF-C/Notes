@@ -1,17 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T06:30:37.199Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.0.0" etag="QZJo-f7k2vImum8M6oAa" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T06:31:44.392Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.0.0" etag="lo_xcIyra9ve3JKTATGv" version="20.8.23" type="github">
   <diagram name="第 1 页" id="791Q4_Yd7dYDzGWZ0i0M">
     <mxGraphModel dx="1387" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VvPlbChHZbXthlWbuQ1D-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvPlbChHZbXthlWbuQ1D-1" target="VvPlbChHZbXthlWbuQ1D-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvPlbChHZbXthlWbuQ1D-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvPlbChHZbXthlWbuQ1D-1" target="VvPlbChHZbXthlWbuQ1D-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VvPlbChHZbXthlWbuQ1D-1" value="Bayesian_HMM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="110" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VvPlbChHZbXthlWbuQ1D-3" value="初始化函数：&lt;br&gt;参数：1. 发射序列(观测)、&lt;br&gt;2. 这里假设发射是一个混合分布，每个分布的组成权重也为狄利克雷过程，权重的标签即为emissions、3. sticky：表示是否为sticky HDP_HMM、4.先验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="100" width="260" height="200" as="geometry" />
         </mxCell>
         <mxCell id="VvPlbChHZbXthlWbuQ1D-4" value="mcmc方法：&lt;br&gt;输入：1.迭代次数、2.从多少次迭代后开始记录、3.每隔多少次进行记录、4.多线程核数、5.是否打印结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="350" width="220" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
