@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T06:38:30.193Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.0.0" etag="4jZsRvNpOwBcvIlnb1Ie" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T06:43:48.224Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.0.0" etag="3GN9UhUlXgx1ODFF1mX0" version="20.8.23" type="github">
   <diagram name="第 1 页" id="791Q4_Yd7dYDzGWZ0i0M">
-    <mxGraphModel dx="1387" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2214" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,8 +35,8 @@
         <mxCell id="VvPlbChHZbXthlWbuQ1D-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvPlbChHZbXthlWbuQ1D-14" target="VvPlbChHZbXthlWbuQ1D-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VvPlbChHZbXthlWbuQ1D-14" value="update_states方法：&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="585" width="120" height="60" as="geometry" />
+        <mxCell id="VvPlbChHZbXthlWbuQ1D-14" value="update_states方法：&lt;br&gt;将所有chain产生的隐状态结合起来形成集合，并与之前的状态相比，得到在新的状态集合中不存在的状态，将其从" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="550" width="220" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
